@@ -17,4 +17,3 @@ const supabaseClient = async(supabaseAccessToken: string)=>{
 }
 
 export default supabaseClient;
-        

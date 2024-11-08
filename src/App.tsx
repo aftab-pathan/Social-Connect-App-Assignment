@@ -16,13 +16,6 @@ function App() {
   return (
     <main className="flex h-screen">
       <Routes>
-        {/* public routes */}
-        {/* <Route element={<AuthLayout />}>
-          <Route path="/sign-in" element={<SigninForm />} />
-          <Route path="/sign-up" element={<SignupForm />} />
-        </Route> */}
-
-        {/* private routes */}
         <Route element={<AppLayout />}>
           <Route index element={<Home />} />
           <Route path="/explore" element={<Explore />} />
@@ -36,16 +29,6 @@ function App() {
         </Route>
       </Routes>
     </main>
-
-
-    // <header>
-    //   <SignedOut>
-    //     <SignInButton />
-    //   </SignedOut>
-    //   <SignedIn>
-    //     <UserButton />
-    //   </SignedIn>
-    // </header>
   )
 }
 export default App
